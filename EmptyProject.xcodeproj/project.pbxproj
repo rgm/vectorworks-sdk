@@ -7,19 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E1C93CBD1346921000F8A789 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C93CBC1346921000F8A789 /* Cocoa.framework */; };
-		E1C93CCC134692E300F8A789 /* Prefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1C93CCB134692E300F8A789 /* Prefix.cpp */; };
+		E12A98031346944900B2C63B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E12A98011346944900B2C63B /* Info.plist */; };
+		E12A98041346944900B2C63B /* Prefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12A98021346944900B2C63B /* Prefix.cpp */; };
+		E12A98061346949200B2C63B /* ConfigCommon.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E12A98051346949200B2C63B /* ConfigCommon.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E1C93CB41346913700F8A789 /* ConfigCommon.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = ConfigCommon.xcconfig; path = ../ConfigCommon.xcconfig; sourceTree = "<group>"; };
-		E1C93CB91346921000F8A789 /* EmptyLibrary.vwlibrary */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EmptyLibrary.vwlibrary; path = /Users/rgm/Dropbox/Projects/vw/pub/EmptyProject/build/Release/EmptyLibrary.vwlibrary; sourceTree = "<absolute>"; };
-		E1C93CBC1346921000F8A789 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		E1C93CBF1346921000F8A789 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		E1C93CC01346921000F8A789 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E12A98011346944900B2C63B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../Projects/vw/pub/Info.plist; sourceTree = SOURCE_ROOT; };
+		E12A98021346944900B2C63B /* Prefix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Prefix.cpp; path = ../../../Projects/vw/pub/Prefix.cpp; sourceTree = SOURCE_ROOT; };
+		E12A98051346949200B2C63B /* ConfigCommon.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = ConfigCommon.xcconfig; path = ../../../Projects/vw/pub/ConfigCommon.xcconfig; sourceTree = "<group>"; };
+		E12A9807134694CD00B2C63B /* EmptyLibrary.vwlibrary */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmptyLibrary.vwlibrary; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C93CC11346921000F8A789 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E1C93CC41346921000F8A789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = EmptyLibrary/Info.plist; sourceTree = "<group>"; };
-		E1C93CCB134692E300F8A789 /* Prefix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Prefix.cpp; path = ../Prefix.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,7 +25,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1C93CBD1346921000F8A789 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,30 +34,12 @@
 		E1C93CAB1346911E00F8A789 = {
 			isa = PBXGroup;
 			children = (
-				E1C93CB41346913700F8A789 /* ConfigCommon.xcconfig */,
-				E1C93CC41346921000F8A789 /* Info.plist */,
-				E1C93CCB134692E300F8A789 /* Prefix.cpp */,
-				E1C93CBB1346921000F8A789 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		E1C93CBB1346921000F8A789 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E1C93CBC1346921000F8A789 /* Cocoa.framework */,
-				E1C93CBE1346921000F8A789 /* Other Frameworks */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E1C93CBE1346921000F8A789 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E1C93CBF1346921000F8A789 /* AppKit.framework */,
-				E1C93CC01346921000F8A789 /* CoreData.framework */,
+				E12A98051346949200B2C63B /* ConfigCommon.xcconfig */,
+				E12A98011346944900B2C63B /* Info.plist */,
+				E12A98021346944900B2C63B /* Prefix.cpp */,
 				E1C93CC11346921000F8A789 /* Foundation.framework */,
+				E12A9807134694CD00B2C63B /* EmptyLibrary.vwlibrary */,
 			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,7 +59,7 @@
 			);
 			name = EmptyLibrary;
 			productName = EmptyLibrary;
-			productReference = E1C93CB91346921000F8A789 /* EmptyLibrary.vwlibrary */;
+			productReference = E12A9807134694CD00B2C63B /* EmptyLibrary.vwlibrary */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -110,6 +89,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12A98031346944900B2C63B /* Info.plist in Resources */,
+				E12A98061346949200B2C63B /* ConfigCommon.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +101,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1C93CCC134692E300F8A789 /* Prefix.cpp in Sources */,
+				E12A98041346944900B2C63B /* Prefix.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +110,7 @@
 /* Begin XCBuildConfiguration section */
 		E1C93CB31346911E00F8A789 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1C93CB41346913700F8A789 /* ConfigCommon.xcconfig */;
+			baseConfigurationReference = E12A98051346949200B2C63B /* ConfigCommon.xcconfig */;
 			buildSettings = {
 			};
 			name = Release;
@@ -169,6 +150,7 @@
 				E1C93CCA1346921000F8A789 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
