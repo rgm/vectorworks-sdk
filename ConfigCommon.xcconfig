@@ -1,0 +1,17 @@
+ARCHS             = i386
+VALID_ARCHS       = $(ARCHS)
+WRAPPER_EXTENSION = vwlibrary
+
+//
+// define VW_SDK_ROOT_PATH for your local filesystem
+// to make #include <foo.h> work correctly
+//
+
+VW_SDK_ROOT_PATH              = ../sdk/vendor/sdk2011/SDKLib
+
+VW_SDK_KERNEL_HEADERS_PATH    = $(VW_SDK_ROOT_PATH)/Include/Kernel
+VW_SDK_ONLY_MAC_HEADERS_PATH  = $(VW_SDK_ROOT_PATH)/Include/OnlyMac
+VW_SDK_INTERFACES_HEADER_PATH = $(VW_SDK_ROOT_PATH)/Include/Interfaces
+VW_SDK_VWFC_HEADER_PATH       = $(VW_SDK_ROOT_PATH)/Include/VWFC
+
+HEADER_SEARCH_PATHS = $(VW_SDK_KERNEL_HEADERS_PATH) $(VW_SDK_ONLY_MAC_HEADERS_PATH) $(VW_SDK_INTERFACES_HEADER_PATH) $(VW_SDK_VWFC_HEADER_PATH)
