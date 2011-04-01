@@ -6,19 +6,84 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E1C93CBD1346921000F8A789 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C93CBC1346921000F8A789 /* Cocoa.framework */; };
+		E1C93CCC134692E300F8A789 /* Prefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1C93CCB134692E300F8A789 /* Prefix.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E1C93CB41346913700F8A789 /* ConfigCommon.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = ConfigCommon.xcconfig; path = ../ConfigCommon.xcconfig; sourceTree = "<group>"; };
+		E1C93CB91346921000F8A789 /* EmptyLibrary.vwlibrary */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EmptyLibrary.vwlibrary; path = /Users/rgm/Dropbox/Projects/vw/pub/EmptyProject/build/Release/EmptyLibrary.vwlibrary; sourceTree = "<absolute>"; };
+		E1C93CBC1346921000F8A789 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E1C93CBF1346921000F8A789 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E1C93CC01346921000F8A789 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E1C93CC11346921000F8A789 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1C93CC41346921000F8A789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = EmptyLibrary/Info.plist; sourceTree = "<group>"; };
+		E1C93CCB134692E300F8A789 /* Prefix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Prefix.cpp; path = ../Prefix.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1C93CB61346921000F8A789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C93CBD1346921000F8A789 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		E1C93CAB1346911E00F8A789 = {
 			isa = PBXGroup;
 			children = (
 				E1C93CB41346913700F8A789 /* ConfigCommon.xcconfig */,
+				E1C93CC41346921000F8A789 /* Info.plist */,
+				E1C93CCB134692E300F8A789 /* Prefix.cpp */,
+				E1C93CBB1346921000F8A789 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
+		E1C93CBB1346921000F8A789 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1C93CBC1346921000F8A789 /* Cocoa.framework */,
+				E1C93CBE1346921000F8A789 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1C93CBE1346921000F8A789 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1C93CBF1346921000F8A789 /* AppKit.framework */,
+				E1C93CC01346921000F8A789 /* CoreData.framework */,
+				E1C93CC11346921000F8A789 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1C93CB81346921000F8A789 /* EmptyLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C93CC91346921000F8A789 /* Build configuration list for PBXNativeTarget "EmptyLibrary" */;
+			buildPhases = (
+				E1C93CB51346921000F8A789 /* Sources */,
+				E1C93CB61346921000F8A789 /* Frameworks */,
+				E1C93CB71346921000F8A789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmptyLibrary;
+			productName = EmptyLibrary;
+			productReference = E1C93CB91346921000F8A789 /* EmptyLibrary.vwlibrary */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		E1C93CAD1346911E00F8A789 /* Project object */ = {
@@ -31,18 +96,59 @@
 				en,
 			);
 			mainGroup = E1C93CAB1346911E00F8A789;
+			productRefGroup = E1C93CAB1346911E00F8A789;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				E1C93CB81346921000F8A789 /* EmptyLibrary */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1C93CB71346921000F8A789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1C93CB51346921000F8A789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C93CCC134692E300F8A789 /* Prefix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		E1C93CB31346911E00F8A789 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E1C93CB41346913700F8A789 /* ConfigCommon.xcconfig */;
 			buildSettings = {
+			};
+			name = Release;
+		};
+		E1C93CCA1346921000F8A789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.cpp;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -56,6 +162,13 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		E1C93CC91346921000F8A789 /* Build configuration list for PBXNativeTarget "EmptyLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C93CCA1346921000F8A789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
