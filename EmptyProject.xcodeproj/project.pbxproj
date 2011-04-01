@@ -13,9 +13,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E12A98011346944900B2C63B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../Projects/vw/pub/Info.plist; sourceTree = SOURCE_ROOT; };
-		E12A98021346944900B2C63B /* Prefix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Prefix.cpp; path = ../../../Projects/vw/pub/Prefix.cpp; sourceTree = SOURCE_ROOT; };
-		E12A98051346949200B2C63B /* ConfigCommon.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = ConfigCommon.xcconfig; path = ../../../Projects/vw/pub/ConfigCommon.xcconfig; sourceTree = "<group>"; };
+		E12A98011346944900B2C63B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		E12A98021346944900B2C63B /* Prefix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Prefix.cpp; path = Prefix.cpp; sourceTree = SOURCE_ROOT; };
+		E12A98051346949200B2C63B /* ConfigCommon.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = ConfigCommon.xcconfig; path = ConfigCommon.xcconfig; sourceTree = "<group>"; };
 		E12A9807134694CD00B2C63B /* EmptyLibrary.vwlibrary */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmptyLibrary.vwlibrary; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C93CC11346921000F8A789 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
