@@ -10,14 +10,25 @@
 		E12A98031346944900B2C63B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E12A98011346944900B2C63B /* Info.plist */; };
 		E12A98041346944900B2C63B /* Prefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12A98021346944900B2C63B /* Prefix.cpp */; };
 		E12A98061346949200B2C63B /* ConfigCommon.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E12A98051346949200B2C63B /* ConfigCommon.xcconfig */; };
+		E1E6AFC91346989C00B89549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E6AFC81346989C00B89549 /* Foundation.framework */; };
+		E1E6AFCB134698A600B89549 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E6AFCA134698A600B89549 /* Carbon.framework */; };
+		E1E6AFDF134699D600B89549 /* libGSESDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E6AFBF1346988700B89549 /* libGSESDK.a */; };
+		E1E6AFE0134699D600B89549 /* libGSESDKVWObjects.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E6AFC01346988700B89549 /* libGSESDKVWObjects.a */; };
+		E1E6AFE1134699D600B89549 /* libRecordHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E6AFC11346988700B89549 /* libRecordHandler.a */; };
+		E1E6AFE2134699D600B89549 /* libVWFC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E6AFC21346988700B89549 /* libVWFC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E12A98011346944900B2C63B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Info.plist; sourceTree = SOURCE_ROOT; };
-		E12A98021346944900B2C63B /* Prefix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Prefix.cpp; path = Prefix.cpp; sourceTree = SOURCE_ROOT; };
-		E12A98051346949200B2C63B /* ConfigCommon.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = ConfigCommon.xcconfig; path = ConfigCommon.xcconfig; sourceTree = "<group>"; };
+		E12A98011346944900B2C63B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		E12A98021346944900B2C63B /* Prefix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Prefix.cpp; sourceTree = SOURCE_ROOT; };
+		E12A98051346949200B2C63B /* ConfigCommon.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ConfigCommon.xcconfig; sourceTree = "<group>"; };
 		E12A9807134694CD00B2C63B /* EmptyLibrary.vwlibrary */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmptyLibrary.vwlibrary; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1C93CC11346921000F8A789 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1E6AFBF1346988700B89549 /* libGSESDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGSESDK.a; sourceTree = SOURCE_ROOT; };
+		E1E6AFC01346988700B89549 /* libGSESDKVWObjects.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGSESDKVWObjects.a; sourceTree = SOURCE_ROOT; };
+		E1E6AFC11346988700B89549 /* libRecordHandler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRecordHandler.a; sourceTree = SOURCE_ROOT; };
+		E1E6AFC21346988700B89549 /* libVWFC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libVWFC.a; sourceTree = SOURCE_ROOT; };
+		E1E6AFC81346989C00B89549 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		E1E6AFCA134698A600B89549 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +36,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1E6AFCB134698A600B89549 /* Carbon.framework in Frameworks */,
+				E1E6AFC91346989C00B89549 /* Foundation.framework in Frameworks */,
+				E1E6AFDF134699D600B89549 /* libGSESDK.a in Frameworks */,
+				E1E6AFE0134699D600B89549 /* libGSESDKVWObjects.a in Frameworks */,
+				E1E6AFE1134699D600B89549 /* libRecordHandler.a in Frameworks */,
+				E1E6AFE2134699D600B89549 /* libVWFC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,9 +54,22 @@
 				E12A98051346949200B2C63B /* ConfigCommon.xcconfig */,
 				E12A98011346944900B2C63B /* Info.plist */,
 				E12A98021346944900B2C63B /* Prefix.cpp */,
-				E1C93CC11346921000F8A789 /* Foundation.framework */,
+				E1E6AFCD134698BA00B89549 /* Libraries */,
 				E12A9807134694CD00B2C63B /* EmptyLibrary.vwlibrary */,
 			);
+			sourceTree = "<group>";
+		};
+		E1E6AFCD134698BA00B89549 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				E1E6AFCA134698A600B89549 /* Carbon.framework */,
+				E1E6AFC81346989C00B89549 /* Foundation.framework */,
+				E1E6AFBF1346988700B89549 /* libGSESDK.a */,
+				E1E6AFC01346988700B89549 /* libGSESDKVWObjects.a */,
+				E1E6AFC11346988700B89549 /* libRecordHandler.a */,
+				E1E6AFC21346988700B89549 /* libVWFC.a */,
+			);
+			name = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +159,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
