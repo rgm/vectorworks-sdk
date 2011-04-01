@@ -6,10 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		E1C93C7813468BD400F8A789 /* ConfigCommon.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = ConfigCommon.xcconfig; path = ../../../Projects/vw/pub/ConfigCommon.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		E1C93C6313468B5D00F8A789 = {
 			isa = PBXGroup;
 			children = (
+				E1C93C7813468BD400F8A789 /* ConfigCommon.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
