@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		E1C93C7813468BD400F8A789 /* ConfigCommon.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = ConfigCommon.xcconfig; path = ../../../Projects/vw/pub/ConfigCommon.xcconfig; sourceTree = "<group>"; };
+		E1C93CB41346913700F8A789 /* ConfigCommon.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = ConfigCommon.xcconfig; path = ../ConfigCommon.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		E1C93C6313468B5D00F8A789 = {
+		E1C93CAB1346911E00F8A789 = {
 			isa = PBXGroup;
 			children = (
-				E1C93C7813468BD400F8A789 /* ConfigCommon.xcconfig */,
+				E1C93CB41346913700F8A789 /* ConfigCommon.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
-		E1C93C6513468B5D00F8A789 /* Project object */ = {
+		E1C93CAD1346911E00F8A789 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = E1C93C6813468B5D00F8A789 /* Build configuration list for PBXProject "EmptyProject" */;
+			buildConfigurationList = E1C93CB01346911E00F8A789 /* Build configuration list for PBXProject "EmptyProject" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = E1C93C6313468B5D00F8A789;
+			mainGroup = E1C93CAB1346911E00F8A789;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -39,14 +39,9 @@
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		E1C93C6A13468B5D00F8A789 /* Debug */ = {
+		E1C93CB31346911E00F8A789 /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		E1C93C6B13468B5D00F8A789 /* Release */ = {
-			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C93CB41346913700F8A789 /* ConfigCommon.xcconfig */;
 			buildSettings = {
 			};
 			name = Release;
@@ -54,16 +49,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E1C93C6813468B5D00F8A789 /* Build configuration list for PBXProject "EmptyProject" */ = {
+		E1C93CB01346911E00F8A789 /* Build configuration list for PBXProject "EmptyProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E1C93C6A13468B5D00F8A789 /* Debug */,
-				E1C93C6B13468B5D00F8A789 /* Release */,
+				E1C93CB31346911E00F8A789 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E1C93C6513468B5D00F8A789 /* Project object */;
+	rootObject = E1C93CAD1346911E00F8A789 /* Project object */;
 }
